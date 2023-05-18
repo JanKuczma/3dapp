@@ -86,7 +86,7 @@ function App() {
           <Nav>
             <Nav.Link onClick={() => setShowId(3)}><FontAwesomeIcon icon={faBookOpen} /> Statement of Originality</Nav.Link>
             <Nav.Link onClick={() => setShowId(4)}><FontAwesomeIcon icon={faBook} /> References</Nav.Link>
-            <Nav.Link href='https://github.com/jsk28/cdws'><FontAwesomeIcon icon={faGithub} /> GitHub</Nav.Link>
+            <Nav.Link href='https://github.com/jsk28/3dapp'><FontAwesomeIcon icon={faGithub} /> GitHub</Nav.Link>
           </Nav>
 
         </Container>
