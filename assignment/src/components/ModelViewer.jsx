@@ -4,7 +4,7 @@ import Minitures from './Minitures';
 import { Container, Button, Row, Col, DropdownButton, Dropdown, ButtonGroup, ToggleButton, Card, ButtonToolbar } from 'react-bootstrap';
 import '../css/x3d.css';
 const playSound = (sound_name) => {
-  const lol = new Audio(`../assets/sounds/${sound_name}`);
+  const lol = new Audio(`assets/sounds/${sound_name}`);
   lol.play();
 }
 
