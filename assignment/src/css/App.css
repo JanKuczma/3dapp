@@ -1,0 +1,139 @@
+ #root {
+   margin: 0 auto;
+   padding: 2rem;
+   text-align: center;
+ }
+
+ .my-footer {
+   text-align: left;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+ }
+
+ .logo {
+   padding: 1px;
+   margin-top: 3px;
+ }
+
+ .logo h1 {
+   font-family: cocaColaFont;
+   font-size: 31px;
+   margin: 0;
+   margin-top: -10px;
+   margin-bottom: -15px;
+   float: left;
+   padding-top: 0px;
+   padding-left: 0px;
+   padding-right: 2px;
+ }
+
+ .logo h2 {
+   font-family: cocaColaFont;
+   font-size: 31px;
+   margin-top: -6px;
+   margin-bottom: -15px;
+   padding-top: 0px;
+   padding-left: 0px;
+   padding-right: 3px;
+   float: left;
+ }
+
+ .logo h3 {
+   font-size: 18px;
+   margin-top: 0px;
+   margin-bottom: -5px;
+   padding-top: 0px;
+   padding-left: 0px;
+   float: left;
+ }
+
+ .logo p {
+   font-size: 7px;
+   margin-top: 22px;
+   margin-bottom: 0px;
+   padding-top: 0px;
+   padding-left: 3px;
+ }
+
+ .contentContainer {
+   margin-top: 60px;
+   margin-bottom: 30px;
+ }
+
+ .miniture {
+  padding: 5px;
+ }
+
+ .miniture.card {
+  background-color: rgba(0,0,0,.15);
+ }
+
+ .miniture:hover {
+  background: rgba(0,0,0,.3);
+ }
+
+
+ #top-text {
+   position: relative;
+   float: left;
+   margin: 20%;
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 10px;
+   border-radius: 5px;
+ }
+
+ #top-text h2 {
+   color: rgb(161, 38, 38);
+   font-size: 3vh;
+   margin-top: 0px;
+   margin-bottom: 5px;
+ }
+
+ #top-text h3 {
+   color: rgba(0, 102, 153, 1);
+   font-size: 2vh;
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
+
+ #top-text p {
+   font-size: 1.5vh;
+   margin: 0px;
+   line-height: 1.2;
+ }
+
+ #top-image {
+   /* width: 100%; */
+   height: 30vh;
+   position: relative;
+   overflow: hidden;
+
+   text-align: center;
+   -webkit-align-items: center;
+   -ms-flex-align: center;
+   align-items: center;
+   display: -webkit-flex;
+   display: flex;
+   margin-bottom: 28px;
+ }
+
+ #top-image::before {
+   background: url("circle-bottles3.png") no-repeat center center;
+   background-size: contain;
+   content: "";
+   width: 100%;
+   height: 100vw;
+   position: absolute;
+   animation: spin 30s linear infinite;
+ }
+
+ @keyframes spin {
+   0% {
+     transform: rotate(0deg);
+   }
+
+   100% {
+     transform: rotate(360deg);
+   }
+ }
